@@ -4,4 +4,4 @@ wget -O update/vaxi.json -- $url
 url="https://covid19.quebec.ca/PreuveVaccinaleApi/issuer/.well-known/jwks.json"
 wget -O update/jwks.json -- $url
 
-jq . jwks.json > jwks-formated.json
+jq . update/jwks.json > update/jwks-formated.json
