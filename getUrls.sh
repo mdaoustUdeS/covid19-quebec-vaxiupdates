@@ -1,7 +1,15 @@
-url="https://covid19.quebec.ca/vaxiupdates/vaxi.json"
-wget -O update/vaxi.json -- $url
+#!/bin/bash
 
-url="https://covid19.quebec.ca/PreuveVaccinaleApi/issuer/.well-known/jwks.json"
-wget -O update/jwks.json -- $url
+outputDirectory=update
 
-jq . update/jwks.json > update/jwks-formated.json
+path="https://covid19.quebec.ca/vaxiupdates/"
+file="vaxi.json"
+
+curl $path/$file -o $outputDirectory/$file
+jq . $outputDirectory/$file > $outputDirectory/${file%.*}-formated.${file##*.}
+
+path="https://covid19.quebec.ca/PreuveVaccinaleApi/issuer/.well-known/"
+file="jwks.json"
+
+curl $path/$file -o $outputDirectory/$file
+jq . $outputDirectory/$file > $outputDirectory/${file%.*}-formated.${file##*.}
