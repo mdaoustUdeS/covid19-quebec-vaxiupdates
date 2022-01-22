@@ -10,7 +10,7 @@ on:
 
 jobs:
   download:
-    name: Get data from usherbrooke.ca
+    name: Get data from covid19.quebec.ca
     runs-on: ubuntu-latest
 
     steps:
