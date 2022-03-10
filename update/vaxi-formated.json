@@ -1,17 +1,43 @@
 {
-  "g": 1638192067246,
+  "g": 1646879803995,
   "v": {
     "reader": {
-      "iosBuild": 150,
-      "androidBuild": 150,
+      "iosBuild": 139,
+      "androidBuild": 139,
       "androidUpdateLink": "https://covid19.quebec.ca/vaxicode/android/verif",
-      "iosUpdateLink": "https://covid19.quebec.ca/vaxicode/ios/verif"
+      "iosUpdateLink": "https://covid19.quebec.ca/vaxicode/ios/verif",
+      "hibernate": {
+        "from": "2022-03-12",
+        "to": "2122-03-12",
+        "locales": {
+          "fr": {
+            "alert_title": "Vérification désactivée",
+            "alert_body": "Depuis le 12 mars 2022, le passeport vaccinal n'est plus requis au Québec. La fonction de vérification des preuves de vaccination est désactivée."
+          },
+          "en": {
+            "alert_title": "Verification disabled",
+            "alert_body": "Since March 12, 2022, the vaccination passport is no longer required in Québec. The proof of vaccination verification function is disabled."
+          }
+        }
+      }
     },
     "wallet": {
-      "iosBuild": 160,
-      "androidBuild": 160,
+      "iosBuild": 139,
+      "androidBuild": 139,
       "androidUpdateLink": "https://covid19.quebec.ca/vaxicode/android",
-      "iosUpdateLink": "https://covid19.quebec.ca/vaxicode/ios"
+      "iosUpdateLink": "https://covid19.quebec.ca/vaxicode/ios",
+      "hibernate": {
+        "from": "2022-03-12",
+        "to": "2122-03-12",
+        "locales": {
+          "fr": {
+            "alert_footer": "Depuis le 12 mars 2022, le passeport vaccinal n'est plus requis au Québec.\n\nIl est toujours possible de conserver vos preuves de vaccination en format numérique dans cette application.\n\nPrésenter sa preuve de vaccination demeure obligatoire selon les exigences du gouvernement fédéral pour les voyages domestiques à bord de transport ferroviaire et aérien et lors de voyages à l'étranger pour respecter les exigences en matière de déplacements internationaux."
+          },
+          "en": {
+            "alert_footer": "Since March 12, 2022, the vaccination passport is no longer required in Québec.\n\nIt is still possible to store your proof of vaccination in digital format in this application.\n\nShowing proof of vaccination remains mandatory under federal government requirements for domestic travel on board rail and air transport and when travelling abroad to meet international travel requirements."
+          }
+        }
+      }
     }
   },
   "qcr": {
@@ -268,6 +294,33 @@
             "id": "exemption_v2"
           }
         ]
+      }
+    ]
+  },
+  "eur": {
+    "name": "Fully vaccinated europeans",
+    "date": "2021-10-03",
+    "versionNumber": 10,
+    "rules": [
+      {
+        "minDays": 14,
+        "minDoses": 2,
+        "mp": "EU/1/20/1528"
+      },
+      {
+        "minDays": 14,
+        "minDoses": 2,
+        "mp": "EU/1/20/1507"
+      },
+      {
+        "minDays": 14,
+        "minDoses": 2,
+        "mp": "EU/1/21/1529"
+      },
+      {
+        "minDays": 14,
+        "minDoses": 1,
+        "mp": "EU/1/20/1525"
       }
     ]
   }
