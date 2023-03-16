@@ -1,5 +1,5 @@
 {
-  "g": 1664888427142,
+  "g": 1678997356160,
   "v": {
     "reader": {
       "iosBuild": 139,
@@ -31,10 +31,10 @@
         "to": "2122-03-12",
         "locales": {
           "fr": {
-            "alert_footer": "Depuis le 12 mars 2022, le passeport vaccinal n'est plus requis au Québec.\n\nIl est toujours possible de conserver vos preuves de vaccination en format numérique dans cette application.\n\nPrésenter sa preuve de vaccination demeure obligatoire selon les exigences du gouvernement fédéral pour les voyages domestiques à bord de transport ferroviaire et aérien et lors de voyages à l'étranger pour respecter les exigences en matière de déplacements internationaux."
+            "alert_footer": "Depuis le 12 mars 2022, le passeport vaccinal n'est plus requis au Québec.\n\nIl est toujours possible de conserver vos preuves de vaccination en format numérique dans cette application.\n\nLors de déplacements internationaux, vous pourriez avoir besoin de présenter une preuve de vaccination contre la COVID-19 pour respecter les conditions d'entrées qui varient d'un pays à l'autre. Assurez-vous de vérifier les exigences de vaccination requises avant de vous rendre à votre destination."
           },
           "en": {
-            "alert_footer": "Since March 12, 2022, the vaccination passport is no longer required in Québec.\n\nIt is still possible to store your proof of vaccination in digital format in this application.\n\nShowing proof of vaccination remains mandatory under federal government requirements for domestic travel on board rail and air transport and when travelling abroad to meet international travel requirements."
+            "alert_footer": "Since March 12, 2022, the vaccination passport is no longer required in Québec.\n\nIt is still possible to store your proof of vaccination in digital format in this application.\n\nWhen traveling internationally, you may need to present a proof of vaccination against COVID-19 to meet entry requirements which vary from one country to another. Please be sure to check the vaccination requirements before traveling to your destination."
           }
         }
       }
